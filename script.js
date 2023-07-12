@@ -1,3 +1,3 @@
 function redirectToBlackjack() {
-  window.location.href = "C:\\Users\\Admin\\Desktop\\htmlcssjs\\Casino\\bj\\bj.html";
+  window.location.href = "\\bj\\bj.html";
 }
