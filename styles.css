@@ -1,0 +1,105 @@
+/* Réinitialisation des styles par défaut des navigateurs */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.game-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.game-list li {
+  margin-bottom: 10px;
+}
+
+.game-list li a {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.game-list li a:hover {
+  background-color: #f9f9f9;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  margin-right: 20px;
+}
+
+.card-image img {
+  width: 100px; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-left: 150px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
